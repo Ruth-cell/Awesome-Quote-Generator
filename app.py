@@ -80,6 +80,28 @@ def results():
     elif int(number) == 20:
         quote = "Rise above the storm and you will find the sunshine"
         image="https://www.dreamsquote.com/wp-content/uploads/2019/06/woman-positive-quotes-40-Motivational-Quotes-For-Women-On-Strength-And-Leadership.png"
+    elif int(number) == 21:
+        quote = "Learn from yesterday,Live Today,Hope for tomorrow"
+        image="http://www.relatably.com/q/img/hope-quotes/-Hope-quotes-36913174-462-587.jpg"
+    elif int(number) == 22:
+        quote = "Don't let todays disapointment cast a shadow on tomorrow's dream"
+        image="https://th.bing.com/th/id/OIP.wqoIn9vR_g6tT09eUvPxcQHaL2?pid=Api&rs=1"
+    elif int(number) == 23:
+        quote = "Success is a journey not a destination."
+        image="https://cdn.wallpapersafari.com/19/29/i2ukFe.jpg"
+    elif int(number) == 24:
+        quote = "Your mistakes don't define you"
+        image="https://www.prettydesigns.com/wp-content/uploads/2015/05/Positive-Quotes-1.jpg"
+    elif int(number) == 25:
+        quote = "Be your own kind of beautiful"
+        image="https://i.pinimg.com/originals/b4/07/99/b40799e262f919a9fcfe468a804797f3.jpg"
+    elif int(number) == 26:
+        quote = "The storms might be rough, but sunshine always returns"
+        image="https://i.kym-cdn.com/photos/images/newsfeed/001/652/874/f70.gif"
+    elif int(number) == 27:
+        quote = "Better things are coming"
+        
+
 
 
     else:
