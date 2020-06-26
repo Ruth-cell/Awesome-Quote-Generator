@@ -4,15 +4,16 @@ body{
 
 h1{
     font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
 
 img src{
-    https://www.google.com/search?q=positive+vibes+meme&rlz=1CAMUHR_enUS894&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj8qp-dyJ3qAhVKmXIEHaI_AVsQ_AUoAXoEC
+    https://www.google.com/search?q=positive+vibes+meme&rlz=1CAMUHR_enUS894&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj8qp-dyJ3qAhVKmXIEHaI_AVsQ_AUoAXoEC class="center">
 }
 
 p{
     font-family: 'Kaushan Script', cursive;
-
+    text-align: center;
 }
 
 .content {
@@ -20,3 +21,12 @@ p{
   margin: auto;
   padding: 10px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
