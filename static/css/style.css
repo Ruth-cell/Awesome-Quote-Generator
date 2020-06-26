@@ -1,5 +1,5 @@
 body{
-     background-color: darkorchid
+     background-color: violet
 }   
 
 h1{
@@ -13,4 +13,10 @@ img src{
 p{
     font-family: 'Kaushan Script', cursive;
 
+}
+
+.content {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
 }
