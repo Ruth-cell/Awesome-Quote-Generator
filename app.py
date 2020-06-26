@@ -15,6 +15,11 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
       return render_template('index.html',time=datetime.now())
+    
+@app.route('/aboutus')
+def aboutus():
+    return render_template('aboutus.html', time=datetime.now())
+
 
 @app.route('/results' , methods = ['GET', 'POST'])
 def results():
