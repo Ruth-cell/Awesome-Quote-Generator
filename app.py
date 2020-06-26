@@ -100,8 +100,77 @@ def results():
         image="https://i.kym-cdn.com/photos/images/newsfeed/001/652/874/f70.gif"
     elif int(number) == 27:
         quote = "Better things are coming"
-        
-
+        image="data:image/jpeg;base64,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"
+    elif int(number) == 28:
+        quote = "I'm sending postive vibes your way and you can't stop them.You're already feeling happier"
+        image="https://i.pinimg.com/originals/50/70/44/507044723a4145a74a589c4ff3dcddca.jpg"
+    elif int(number) == 29:
+        quote = "You can do it!You've got this!"
+        image="https://ift.tt/2pEpHZg"
+    elif int(number) == 30:
+        quote = "Positive Mind,Positive Vibes,Positive Vibes"
+        image="https://www.yourtango.com/sites/default/files/styles/body_image_default/public/2018/Positiveattitude5.jpg"
+    elif int(number) == 31:
+        quote = "When you've had a rough day but you're trying to stay postive.I'm fine. it's fine.Everything's just fine."
+        image="https://meme.xyz/uploads/posts/t/l-9694-when-youve-had-a-rough-date-but-youre-trying-to-stay-positive.jpg"
+    elif int(number) == 32:
+        quote = "Train your mind to see good in every situation"
+        image="https://thinkingmeme.com/wp-content/uploads/2018/04/Positive-thinking-meme7.jpg"
+    elif int(number) == 33:
+        quote = "Your limitation-it's only your imagination"
+        image="https://www.success.com/wp-content/uploads/legacy/sites/default/files/1_16.jpg"
+    elif int(number) == 34:
+        quote = "Push yourself, because no one is going to do it for you"
+        image="https://www.success.com/wp-content/uploads/legacy/sites/default/files/new2.jpg"
+    elif int(number) == 35:
+        quote = "Do one thing everyday that scares you"
+        image="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1729186165&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=contentmentqu-20&language=en_US"
+    elif int(number) == 36:
+        quote = "Don't let anyone dull your sparkle"
+        image="https://40zf3x2a45us1qbee83qm619-wpengine.netdna-ssl.com/wp-content/uploads/dontletanyonedullyoursparkle.png"
+    elif int(number) == 37:
+        quote = "You're braver than you believe, and stonger than you seem,and smarter than you think"
+        image="https://40zf3x2a45us1qbee83qm619-wpengine.netdna-ssl.com/wp-content/uploads/youarebraverthanyoubelieveandstrongerthanyouseemandsmarterthanyouthink.png"
+    elif int(number) == 38:
+        quote = "When it rains look for rainbows, when its dark look for stars"
+        image="https://40zf3x2a45us1qbee83qm619-wpengine.netdna-ssl.com/wp-content/uploads/whenitrainslookforrainbowswhenitsdarklookforstars.png"
+    elif int(number) == 39:
+        quote = "No one can make you feel inferior without your consent"
+        image="https://image.shutterstock.com/image-photo/quote-best-inspirational-motivational-quotes-600w-1434337010.jpg"
+    elif int(number) == 40:
+        quote = "Time moves in one direction,Memory is another"
+        image="https://hips.hearstapps.com/wdy.h-cdn.co/assets/16/41/wd22.jpg?crop=1xw:1.0xh;center,top&resize=768:*"
+    elif int(number) == 41:
+        quote = "You must be the change you see in the world"
+        image="https://hips.hearstapps.com/wdy.h-cdn.co/assets/16/41/wd19.jpg?crop=1xw:1.0xh;center,top&resize=768:*"
+    elif int(number) == 42:
+        quote = "Never give up because great things take time"
+        image="https://image.freepik.com/free-vector/lettering-typography-quote-poster-inspiration-motivation-never-give-up-because-greate-things-take-time_206410-23.jpg"
+    elif int(number) == 43:
+        quote = "Never be afarid to say what you feel"
+        image="https://i2.wp.com/www.shihoriobata.com/wp-content/uploads/2019/01/never-be-afraid-to-say-what-you-feel.jpg?w=736&ssl=1"
+    elif int(number) == 44:
+        quote = "Every morning, you have the opportunity to becmoe a happier version of youself."
+        image="https://i1.wp.com/www.shihoriobata.com/wp-content/uploads/2019/01/36049c8d3a540e6c582d548afb6260b4.jpg?w=564&ssl=1;;;;;;;"
+    elif int(number) == 45:
+        quote = "The challenge is not to be perfect... it's to be whole"
+        image="https://www.ftd.com/blog/content/uploads/2019/02/inspirational-quotes-women-jane-fonda.jpg"
+    elif int(number) == 46:
+        quote = "If you obey all the rules, you miss all the fun"
+        image="https://www.ftd.com/blog/content/uploads/2019/02/inspirational-quotes-women-katharine-hepburn.jpg"
+    elif int(number) == 47:
+        quote = "Learn fomr the mistkes of others.You can't live long enough to make them all yourself"
+        image="https://www.ftd.com/blog/content/uploads/2019/02/inspirational-quotes-women-eleanor-roosevelt.jpg"
+    elif int(number) == 48:
+        quote = "Everyone shines,givin the best lighting"
+        image="https://www.ftd.com/blog/content/uploads/2019/02/inspirational-quotes-women-susan-cain.jpg"
+    elif int(number) == 49:
+        quote = "if you don't risk anything,you risk even more"
+        image="https://www.ftd.com/blog/content/uploads/2019/02/inspirational-quotes-women-erica-jong.jpg"
+    elif int(number) == 50:
+        quote = "To improve is to change.To be perfect is to change often"
+        image="https://hips.hearstapps.com/wdy.h-cdn.co/assets/16/41/wd17.jpg?crop=1xw:1.0xh;center,top&resize=768:*"
+    
 
 
     else:
